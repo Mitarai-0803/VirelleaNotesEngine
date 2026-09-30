@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{0c8d419b-7fbf-46a5-9d30-f09afe1cddfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Constants">
+      <UniqueIdentifier>{84ba64c6-377f-48c3-a56e-be287d0d927d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Objects">
+      <UniqueIdentifier>{c81fdbe2-be04-4949-aaae-f7434274b84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Components">
+      <UniqueIdentifier>{46a7abe6-73f1-4166-8715-3f6b22b12bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scenes">
+      <UniqueIdentifier>{a3af938f-93a3-40be-a9ca-e98720f04024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\System">
+      <UniqueIdentifier>{e6727c25-9697-4f37-b5e8-58b2ff60e938}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\LoadMusicComponent.h">
+      <Filter>src\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VolumeControlComponent.h">
+      <Filter>src\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BpmControlComponent.h">
+      <Filter>src\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScrollControlComponent.h">
+      <Filter>src\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ZoomComponent.h">
+      <Filter>src\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AudioConstants.h">
+      <Filter>src\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Colors.h">
+      <Filter>src\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameConstants.h">
+      <Filter>src\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UIConstants.h">
+      <Filter>src\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AudioManagerComponent.h">
+      <Filter>src\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BpmGridObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MusicPlayButton.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImageButton.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComponentBase.h">
+      <Filter>src\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DataSaveButton.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NoteObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NotePlacerObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SecGridObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SoundVisualizerObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VerticalLinesObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneBase.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DrawBoxComponent.h">
+      <Filter>src\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DrawFormatStringObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NoteTypeButton.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImageObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImageNotesObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlayTimeIndicatorObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlayBarObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UsageButton.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LoadProgressButton.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OpenFolderButton.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScrollingBackgroundObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Font.h">
+      <Filter>src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputManager.h">
+      <Filter>src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyLibraryFunctions.h">
+      <Filter>src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Structs.h">
+      <Filter>src\System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\LoadMusicComponent.cpp">
+      <Filter>src\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VolumeControlComponent.cpp">
+      <Filter>src\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BpmControlComponent.cpp">
+      <Filter>src\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScrollControlComponent.cpp">
+      <Filter>src\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZoomComponent.cpp">
+      <Filter>src\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AudioManagerComponent.cpp">
+      <Filter>src\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BpmGridObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MusicPlayButton.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImageButton.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DataSaveButton.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NoteObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NotePlacerObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SecGridObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SoundVisualizerObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VerticalLinesObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneBase.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DrawBoxComponent.cpp">
+      <Filter>src\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DrawFormatStringObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NoteTypeButton.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImageObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImageNotesObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayTimeIndicatorObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayBarObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UsageButton.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LoadProgressButton.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScrollingBackgroundObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DxMain.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Font.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputManager.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyLibraryFunctions.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".github\copilot-instructions.md" />
+  </ItemGroup>
+</Project>
